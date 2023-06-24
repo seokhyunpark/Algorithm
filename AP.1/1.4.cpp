@@ -1,0 +1,6 @@
+void matrixmult(int n, matrix_t A, matrix_t B, matrix_t& C) {
+    for (int i = 1; i <= n; i++)
+        for (int j = 1; j <= n; j++)
+            for (int k = 1; k <= n; k++)
+                C[i][j] += A[i][k] * B[k][j];
+}
