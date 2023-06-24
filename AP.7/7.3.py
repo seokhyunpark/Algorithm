@@ -1,3 +1,5 @@
+// wrong answer
+
 def dijkstra(W):
     n = len(W) - 1
     F = []
